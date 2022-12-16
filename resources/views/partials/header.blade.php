@@ -1,4 +1,4 @@
-<header>
+<header class="d-flex align-items-center">
     <nav class="navbar">
         <div class="container-fluid">
             <span class="mb-0 display-6 fw-bold">MoviesBool</span>
