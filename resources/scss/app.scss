@@ -1,1 +1,45 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+img {
+    max-width: 100%;
+}
+
+main {
+    background-color: #0d1117;
+    display: flex;
+    align-items: center;
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+
+    .box-movie {
+        width: calc(100% / 2 - 20px);
+        background-color: peachpuff;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 0 10px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        border-radius: 10px;
+
+        .img-box {
+            overflow: hidden;
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .description {
+
+            .title, .org-title, .nationality, .date, .vote {
+                margin-bottom: 20px;
+                text-transform: capitalize;
+            }
+
+
+        }
+    }
+}
