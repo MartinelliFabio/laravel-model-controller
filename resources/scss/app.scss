@@ -5,6 +5,11 @@ img {
     max-width: 100%;
 }
 
+nav {
+    background-color: #ddcecd;
+}
+
+
 main {
     background-color: #0d1117;
     display: flex;
@@ -18,7 +23,7 @@ main {
 
     .box-movie {
         width: calc(100% / 2 - 20px);
-        background-color: peachpuff;
+        background-color: #ddcecd;
         border: 1px solid black;
         padding: 10px;
         margin: 0 10px;
@@ -35,6 +40,7 @@ main {
         .description {
 
             .title, .org-title, .nationality, .date, .vote {
+                font-size: 18px;
                 margin-bottom: 20px;
                 text-transform: capitalize;
             }
